@@ -1,0 +1,2 @@
+//预约时间
+export const RESERVE_TIEM_TYPE = 'RESERVE_TIEM_TYPE'
