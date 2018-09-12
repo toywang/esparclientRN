@@ -27,6 +27,7 @@
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   ChatViewController *chatVC = [[ChatViewController alloc]init];
   _rootViewController = [[UINavigationController alloc]initWithRootViewController:chatVC];
+  [_rootViewController setNavigationBarHidden:YES animated:NO];
   chatVC.view = rootView;
   self.window.rootViewController = _rootViewController;
   [self.window makeKeyAndVisible];

@@ -32,6 +32,7 @@ import { combineReducers } from 'redux';
 import doctorList from './js/pages/home/doctorList';
 import SelectDoctorList from './js/pages/home/selectDoctorList';
 import reserveItem from './js/pages/home/reserveItem';
+import itemDetail from './js/pages/home/itemDetail';
 
 const productsReducer = function(state=[], action) {
   return state;
@@ -176,6 +177,9 @@ const  MyNavigatior = StackNavigator(
         },
         reserveItem:{
             screen:reserveItem,
+        },
+        itemDetail:{
+            screen:itemDetail
         },
         reserveSelectClinic:{
          screen:SelectClick,

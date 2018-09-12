@@ -6,6 +6,9 @@
 import React, { Component } from "react";
 import { Modal, Text, TouchableHighlight, View } from "react-native";
 import QuickTimeList from "./QuickTimeList";
+import requestBase from '../../utils/requestBase'
+
+const req = new requestBase()
 
 export default class SelectClick extends Component {
     state = {

@@ -8,6 +8,8 @@ import {
 const X_WIDTH=375;
 const X_HEIGHT=812;
 
+export const http_url = 'http://114.55.72.11:8088'
+
 export function screenWidth() {
 
     return Dimensions.get('window').width
